@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My code</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <center>
+  <div class="header">
+    <h1>MY HTML CODE</h1>
+    <h2>REPLIT</h2>
+    <h3>INFO</h3>
+    <h4>5/11/23</h4>
+    <h5>By</h5>
+    <h6>Nathaniel Babayev</h6>
+</div>
+    <p>This is some HTML and CSS and JavaScript I can do </p>
+    <br>
+    <img src="g.jpg" height="300px">
+    <br>
+    <img src="t.jpg" height="300px">
+  <div id="ok">
+</div>
+  <script src="script.js"></script>
+<button type="button" onclick="size()">Size</button>
+  <button type="button" onclick="circle()">Shape</button>
+  <button type="button" onclick="hue()">color</button>
+  <button type="button" onclick="reset()">reset</button>
+  <script>
+    function hue(){  document.getElementById("ok").style.backgroundColor="green";
+}
+function circle(){
+document.getElementById("ok").style.borderRadius="1000px";
+}
+function size(){
+  document.getElementById("ok").style.height = "300px";
+  document.getElementById("ok").style.width = "300px";
+}
+function reset(){  document.getElementById("ok").style.backgroundColor="lightcoral";
+  document.getElementById("ok").style.height = "50px";
+  document.getElementById("ok").style.width = "50px";
+ document.getElementById("ok").style.borderRadius="0px";
+}
+  </script>
+</body>
+
+</html>

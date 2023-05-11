@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: rgba(255, 166, 0, 0.466);
+}
+
+.header{
+  background-color: lightgrey;
+  padding: 20px;
+  text-align: center;
+  color: purple;
+}
+
+#ok{
+  background-color: lightcoral;
+  padding: 100px;
+  border: 5px solid blue;
+  height: 50px;
+  width: 50px;
+  position:relative;
+
+}
